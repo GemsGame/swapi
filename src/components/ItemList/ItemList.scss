@@ -1,0 +1,17 @@
+.block-details__item {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(49, 69, 106, 0.800);
+    padding:0.5rem;
+    color: rgba(49, 69, 106, 0.800);
+}
+
+.block-details__item:hover {
+    border-bottom: 1px solid #31456A;
+    color:#31456A;
+}
+.block-details__text {
+    width: 100%;
+    padding:2em;
+    
+}
+

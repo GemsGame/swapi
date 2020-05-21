@@ -1,0 +1,51 @@
+.planet-details {
+    background: #e3edf7;
+    box-shadow: 15.4429px 7.72143px 61.7714px rgba(136, 165, 191, 0.38),
+        -15.4429px -7.72143px 61.7714px rgba(255, 255, 255, 0.7);
+    border-radius: 61.7714px;
+    display: flex;
+    margin:1rem;
+    flex-flow: wrap;
+}
+
+.planet-details__column {
+  padding:1rem;
+  
+}
+.planet-details__column-content {
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+    /* Target portrait smartphones */
+    .planet-details {
+        justify-content: center;
+    }
+}
+.planet-details__image img {
+    border-radius: 40px;
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+}
+
+.planet-details__ul li {
+    list-style-type: none;
+}
+
+.planet-details__li {
+    display: flex;
+    align-items: center;
+}
+
+.mark {
+    background: linear-gradient(87.87deg, #ffffff 3.58%, #587ca5 305.99%);
+    box-shadow: 2px 1px 3px rgba(24, 55, 91, 0.2), -2px -1px 4px rgba(255, 255, 255, 0.4),
+        inset -4px -3px 4px rgba(79, 98, 120, 0.2), inset 3px 3px 5px rgba(213, 230, 245, 0.4);
+    border-radius: 26px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}

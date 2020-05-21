@@ -1,0 +1,1 @@
+export { RandomPlanet as default } from './RandomPlanet.js';

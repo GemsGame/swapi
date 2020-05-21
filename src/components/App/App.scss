@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy-Bold'), url('../../assets/fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.app {
+    background: linear-gradient(180deg, #F1F5F8 0%, #EBF3FA 0.01%, #DDE7F3 53.92%, #E6F0F9 100%);
+    min-height: 100vh;
+    padding:1rem;
+   
+}
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Gilroy';
+}
+
+h1 {
+    color: #31456A;
+}
+
+
+
