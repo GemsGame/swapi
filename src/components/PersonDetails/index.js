@@ -1,1 +1,1 @@
-export { PersonDetails as default} from './PersonDetails.js';
+export { PersonDetails as default } from './PersonDetails';
