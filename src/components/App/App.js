@@ -10,13 +10,14 @@ export const App = () => {
   const [personId, setPersonId] = useState();
   const handleChangeId = (id) => {
     setPersonId(id);
+    console.log(id);
   };
   return (
     <div className="app">
       <RandomPlanet />
       <div className="app__row">
-        <ItemList/>
-
+        <ItemList handleChangeId={handleChangeId} />
+        <PersonDetails personId={personId} />
       </div>
     </div>
   );

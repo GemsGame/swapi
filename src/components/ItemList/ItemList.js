@@ -4,7 +4,6 @@ import SwapiService from '../../services/swapi-service';
 import './ItemList.scss';
 import Spinner from '../Spinner';
 
-
 export const ItemList = ({ handleChangeId }) => {
   const [people, setPeople] = useState([]);
   const swapi = new SwapiService();
