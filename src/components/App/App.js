@@ -9,12 +9,11 @@ import Spinner from '../Spinner';
 export const App = () => {
     return (
         <div className="app">
-            <div className="app__wrapper">
-                <PlanetDetails />
-                <ItemList/>
-                <PersonDetails/>
-                <RandomPlanet/>
-            
+            <RandomPlanet />
+            <div className="app__row">
+                <ItemList />
+                <ItemList />
+                <ItemList />
             </div>
         </div>
     )
