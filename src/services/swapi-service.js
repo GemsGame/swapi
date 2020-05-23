@@ -1,6 +1,6 @@
 export default class SwapiService {
     _apiHost = 'https://swapi.dev/api';
-    async getResourse(url) {
+    async getResourse (url) {
       const response = await fetch(`${this._apiHost}${url}`);
       if (!response.ok) {
         throw new Error(`Could not fetch ${response.status}`)

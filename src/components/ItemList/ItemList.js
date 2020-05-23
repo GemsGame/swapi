@@ -4,11 +4,12 @@ import SwapiService from '../../services/swapi-service';
 import './ItemList.scss';
 import Spinner from '../Spinner';
 
-export const ItemList = ({ handleChangeId }) => {
+export const ItemList = ({ handleChangeId, getData }) => {
   const [people, setPeople] = useState([]);
-  const swapi = new SwapiService();
+
+  
   useEffect(() => {
-    swapi.getAllPeople().then((p) => setPeople(p));
+    getData().then((p) => setPeople(p));
   }, []);
   if (!people) {
     return <Spinner />;
